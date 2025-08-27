@@ -51,10 +51,21 @@ npx gulp clean
 
 ## Estrutura de Arquivos
 
-- `scss/` - Arquivos SCSS fonte
-- `css/` - Arquivos CSS compilados (gerados automaticamente)
-- `js/` - Scripts de injeção (gerados automaticamente)
-- `gulpfile.mjs` - Configuração do Gulp
+```
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 css/ 🚫 (auto-hidden)
+├── 📁 js/ 🚫 (auto-hidden)
+├── 📁 node_modules/ 🚫 (auto-hidden)
+├── 📁 scss/
+│   └── 🎨 main.scss
+├── 🚫 .gitignore
+├── 📖 README.md
+├── 📄 gulpfile-alt.mjs
+├── 📄 gulpfile.mjs
+├── 📄 package-lock.json
+└── 📄 package.json
+```
+
 
 ## Funcionamento
 
